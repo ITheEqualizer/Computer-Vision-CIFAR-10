@@ -7,12 +7,31 @@ This project is a **Deep Learning-based Computer Vision system** that identifies
 
 ---
 
+## 📚 Full Documentation (Wiki) | مستندات کامل (ویکی)
+
+A **complete, step-by-step wiki** explaining every line of code — including **all code blocks, English + Persian explanations**, model breakdown, training pipeline, evaluation, and deployment — is available here:
+
+👉 **Visit the Full Wiki:**  
+https://github.com/ITheEqualizer/Computer-Vision/wiki
+
+🔹 The wiki includes the following full sections:
+
+1. **Setup & Imports**  
+2. **Data Loading & Preprocessing**  
+3. **Model Architecture**  
+4. **Training Configuration & Execution**  
+5. **Evaluation, Visualization & Saving**  
+
+📌 *If you want to understand the logic behind every part of the project, the wiki contains the full learning roadmap.*
+
+---
+
 ## ⚙️ Features | ویژگی‌ها
-- ✅ Image classification using CNN (Keras/TensorFlow)
-- 🧩 Trained model saved as `.keras` and `.h5` files
-- 📊 Evaluation with test data for accuracy & loss metrics
-- 🖼️ Example images included (`img.jpg`, `img2.jpg`)
-- 💾 Supports model loading and reusability
+- ✅ Image classification using CNN (Keras/TensorFlow)  
+- 🧩 Trained model saved as `.keras` and `.h5` files  
+- 📊 Evaluation with test data for accuracy & loss metrics  
+- 🖼️ Example images included (`img.jpg`, `img2.jpg`)  
+- 💾 Supports model loading and reusability  
 
 ---
 
@@ -34,15 +53,16 @@ Computer-Vision/
 ## 🧠 Model Architecture | معماری مدل
 The model is a **Convolutional Neural Network (CNN)** trained on the CIFAR-10 dataset (or similar custom dataset). It consists of:
 
-- Multiple convolutional and pooling layers
-- Dense fully-connected layers
-- Softmax output for 10-class classification
+- Multiple convolutional and pooling layers  
+- Dense fully-connected layers  
+- Softmax output for 10-class classification  
 
 این مدل از **شبکه‌های عصبی کانولوشنی (CNN)** برای استخراج ویژگی‌ها و طبقه‌بندی تصاویر استفاده می‌کند و برای مجموعه داده‌ای مشابه CIFAR-10 طراحی شده است. ساختار آن شامل چندین لایه کانولوشن، Pooling و لایه‌های Fully Connected است.
 
 ---
 
 ## 🚀 Installation & Usage | نصب و اجرا
+
 ### 1️⃣ Prerequisites | پیش‌نیازها
 Ensure Python 3.8+ is installed and install the following dependencies:
 ```bash
@@ -78,9 +98,9 @@ After training, the model achieves high accuracy (>85%) on the CIFAR-10 test set
 ---
 
 ## 🔮 Future Work | کارهای آینده
-- Expand dataset for more real-world classes
-- Convert model to TensorFlow Lite for mobile deployment
-- Integrate webcam-based real-time detection
+- Expand dataset for more real-world classes  
+- Convert model to TensorFlow Lite for mobile deployment  
+- Integrate webcam-based real-time detection  
 
 ---
 
@@ -98,4 +118,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-> 🌍 *A fully bilingual README to help both English and Persian speakers understand and use this project effectively.*
+> 🌍 *A fully bilingual README to help both English and Persian speakers understand and use this project effectively.*  
+> 📘 *For full project documentation, visit the wiki!*
+
